@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ *= bootstrap
+ *= require_tree .
+ *= require_self
+ */
+
+$myColor: #BF4A68;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-default{
+	color: blue;
+}
+
+h1, h2 {
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+}
+
+.submit {
+	background-color: #FDA179;
+	border-radius: 20px;
+}
+
+body {
+ background-image: url("weather.png");
+ font-family: 'Asap Condensed', sans-serif;
+ color: #BF4A68;
+ font-size: 20px;
+}
+
+ .navbar-inverse {
+ 	background-color: #FDA179;
+
+ }
+
+ a .navbar-brand {
+ 	color: $myColor;
+ }
+
+ .navbar-header {
+ 	color: blue;
+ }
+
+ .actions {
+ 	color: #BF4A68;
+ }
+
+.signupyo {
+	background-color: #FDA179;
+	background: rgba(54, 25, 25, .5);
+	width: 250px;
+	border-top-right-radius: .3em;
+	border-top-left-radius: .3em;
+	border-bottom-left-radius: .3em;
+	border-bottom-right-radius: .3em;
+	   margin: 0 auto;
+    display: table;
+
+}
+
+
+.imagebackground {
+	background-color: #FDA179;
+	height: 250px;
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
